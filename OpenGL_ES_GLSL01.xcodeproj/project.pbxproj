@@ -14,6 +14,9 @@
 		F23D9CEE24D3F59E00EDFE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23D9CED24D3F59E00EDFE7B /* Assets.xcassets */; };
 		F23D9CF124D3F59E00EDFE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23D9CEF24D3F59E00EDFE7B /* LaunchScreen.storyboard */; };
 		F23D9CF424D3F59E00EDFE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D9CF324D3F59E00EDFE7B /* main.m */; };
+		F23D9CFB24D3F76F00EDFE7B /* timg.png in Resources */ = {isa = PBXBuildFile; fileRef = F23D9CFA24D3F76E00EDFE7B /* timg.png */; };
+		F23D9CFD24D3FABE00EDFE7B /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F23D9CFC24D3FABE00EDFE7B /* shaderv.vsh */; };
+		F23D9CFF24D3FAE200EDFE7B /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F23D9CFE24D3FAE200EDFE7B /* shaderf.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		F23D9CF024D3F59E00EDFE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F23D9CF224D3F59E00EDFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F23D9CF324D3F59E00EDFE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F23D9CFA24D3F76E00EDFE7B /* timg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timg.png; sourceTree = "<group>"; };
+		F23D9CFC24D3FABE00EDFE7B /* shaderv.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		F23D9CFE24D3FAE200EDFE7B /* shaderf.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		F23D9CE024D3F59D00EDFE7B /* OpenGL_ES_GLSL01 */ = {
 			isa = PBXGroup;
 			children = (
+				F23D9CFA24D3F76E00EDFE7B /* timg.png */,
 				F23D9CE124D3F59D00EDFE7B /* AppDelegate.h */,
 				F23D9CE224D3F59D00EDFE7B /* AppDelegate.m */,
 				F23D9CE424D3F59D00EDFE7B /* SceneDelegate.h */,
@@ -72,6 +79,8 @@
 				F23D9CEF24D3F59E00EDFE7B /* LaunchScreen.storyboard */,
 				F23D9CF224D3F59E00EDFE7B /* Info.plist */,
 				F23D9CF324D3F59E00EDFE7B /* main.m */,
+				F23D9CFC24D3FABE00EDFE7B /* shaderv.vsh */,
+				F23D9CFE24D3FAE200EDFE7B /* shaderf.fsh */,
 			);
 			path = OpenGL_ES_GLSL01;
 			sourceTree = "<group>";
@@ -133,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D9CFD24D3FABE00EDFE7B /* shaderv.vsh in Resources */,
+				F23D9CFB24D3F76F00EDFE7B /* timg.png in Resources */,
 				F23D9CF124D3F59E00EDFE7B /* LaunchScreen.storyboard in Resources */,
+				F23D9CFF24D3FAE200EDFE7B /* shaderf.fsh in Resources */,
 				F23D9CEE24D3F59E00EDFE7B /* Assets.xcassets in Resources */,
 				F23D9CEC24D3F59D00EDFE7B /* Main.storyboard in Resources */,
 			);
