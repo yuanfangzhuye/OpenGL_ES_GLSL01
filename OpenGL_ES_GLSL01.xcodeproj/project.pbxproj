@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F235229324D7C24500DC1A5C /* TimgView.m in Sources */ = {isa = PBXBuildFile; fileRef = F235229224D7C24500DC1A5C /* TimgView.m */; };
 		F23D9CE324D3F59D00EDFE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D9CE224D3F59D00EDFE7B /* AppDelegate.m */; };
 		F23D9CE624D3F59D00EDFE7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D9CE524D3F59D00EDFE7B /* SceneDelegate.m */; };
 		F23D9CE924D3F59D00EDFE7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D9CE824D3F59D00EDFE7B /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F235229124D7C24500DC1A5C /* TimgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimgView.h; sourceTree = "<group>"; };
+		F235229224D7C24500DC1A5C /* TimgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimgView.m; sourceTree = "<group>"; };
 		F23D9CDE24D3F59D00EDFE7B /* OpenGL_ES_GLSL01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL_ES_GLSL01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23D9CE124D3F59D00EDFE7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F23D9CE224D3F59D00EDFE7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				F23D9CE524D3F59D00EDFE7B /* SceneDelegate.m */,
 				F23D9CE724D3F59D00EDFE7B /* ViewController.h */,
 				F23D9CE824D3F59D00EDFE7B /* ViewController.m */,
+				F235229124D7C24500DC1A5C /* TimgView.h */,
+				F235229224D7C24500DC1A5C /* TimgView.m */,
 				F23D9CEA24D3F59D00EDFE7B /* Main.storyboard */,
 				F23D9CED24D3F59E00EDFE7B /* Assets.xcassets */,
 				F23D9CEF24D3F59E00EDFE7B /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 			files = (
 				F23D9CE924D3F59D00EDFE7B /* ViewController.m in Sources */,
 				F23D9CE324D3F59D00EDFE7B /* AppDelegate.m in Sources */,
+				F235229324D7C24500DC1A5C /* TimgView.m in Sources */,
 				F23D9CF424D3F59E00EDFE7B /* main.m in Sources */,
 				F23D9CE624D3F59D00EDFE7B /* SceneDelegate.m in Sources */,
 			);
@@ -303,6 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_GLSL01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_GLSL01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

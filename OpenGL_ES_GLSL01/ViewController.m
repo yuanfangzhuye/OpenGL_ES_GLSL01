@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TimgView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) UIView *imgView;
 
 @end
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.imgView = (TimgView *)self.view;
 }
 
 
